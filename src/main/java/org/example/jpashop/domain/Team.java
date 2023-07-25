@@ -8,6 +8,8 @@ import javax.persistence.Id;
 @Entity
 public class Team extends BaseEntity{
 
+
+
     @Id
     @GeneratedValue
     @Column(name = "TEAM_ID")
